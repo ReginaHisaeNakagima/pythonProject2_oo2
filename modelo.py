@@ -40,11 +40,13 @@ class Serie(Programa):
 
 vingadores = Filme('vingadores - guerra infinita', 2018, 160)
 vingadores.dar_likes()
+vingadores.dar_likes()
+vingadores.dar_likes()
 atlanta = Serie('atlanta', 2018, 2)
 atlanta.dar_likes()
 atlanta.dar_likes()
 
-filmes_e_series = [vingadores, atlanta]
+listinha = [vingadores, atlanta]
 
-for programa in filmes_e_series:
+for programa in listinha    :
     print(programa)
